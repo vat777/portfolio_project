@@ -1,11 +1,10 @@
 # Personal Portfolio Project
----
 
 ## Description:
 
-This is the personal portfolio project for [**Codecademy.com**](https://codecademy.com) course. It contains the info about me, my skills and projects.
+This is the personal portfolio project for [**Codecademy.com**](https://codecademy.com) course. It contains the info about me, my skills and my projects.
 
-## Features:
+## Used technologies:
 
 - HTML
 - CSS
