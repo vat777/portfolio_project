@@ -6,32 +6,33 @@
     <title>My Portfolio Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
+    
 </head>
 <body>
     <!-- Start header section -->
     <header>
-        <div class="logo-nav-container">
+        <section class="logo-nav-container" id="logo-nav">
             <a href="index.html"><img src="./images/logo-white.png" alt="VT logo"></a>
             
             <!-- Main menu -->
             <nav class="main-nav">
                 <ul>
                     <!-- <li><a href="#">Home</a></li> -->
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Skills</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
             </nav>
-        </div>
+        </section>
 
         <!-- Page hero section-->
-        <div class="page-hero-container">
+        <section class="page-hero-container">
 
             <!-- Page hero left section - short description + icons -->
             <div class="page-hero-left-skew"> 
@@ -55,25 +56,42 @@
             <div class="page-hero-right-skew">
                 <div class="page-hero-right">
                     <div class="page-hero-img">
-                        <img src="./images/my-photo.png" alt="Vitalii photo">
+                        <img src="./images/my-photo-2.png" alt="Vitalii photo">
                     </div>
                 </div>
-            </div>
+            </div>  
             
-            
+        </section>
+
+        <div class="scroll-down">
+            <img src="./images/scroll-down-2.gif" alt="scroll down icon">
         </div>
-
-
     </header>
 
     <!-- Start main section -->
     <main>
 
+        <!-- Start about me section -->
+        <section class="about-me" id="about-me">
+            <h2 class="white white-border">About me</h2>
+            <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+
+        <!-- Start Skills section -->
+        <section class="skills" id="skills">
+            <h2 class="black black-border">my skills</h2>
+            <h3>using now:</h3>
+            <h3>learning:</h3>
+            <h3>planning:</h3>
+            <h3>other skills:</h3>
+        </section>
     </main>
 
     <!-- Start footer section -->
     <footer>
 
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
