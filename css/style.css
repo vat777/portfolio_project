@@ -651,6 +651,7 @@ textarea::placeholder {
 
     .page-hero-right {
         height: 100%;
+        background-color: #000;
     }
 
     .page-hero-img {
