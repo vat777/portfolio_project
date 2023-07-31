@@ -618,6 +618,7 @@ textarea::placeholder {
 
     .page-hero-container {
         flex-direction: column-reverse;
+        background-color: #000;
     }
 
     .page-hero-left-skew,
