@@ -656,6 +656,7 @@ textarea::placeholder {
 
     .page-hero-img {
         height: 75%;
+        width: unset;
     }
 
     .page-hero-img img {
